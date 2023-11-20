@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANCHESTER CITY
+    </title>
+
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #info {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Manchester City FC</h1>
+
+  <div id="info">
+    <p>Manchester City Football Club is a professional football club based in Manchester, England. Founded in 1880 as St. Mark's (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club's home ground is the Etihad Stadium in east Manchester, where it has played since 2003.</p>
+    <p>Manager: Pep Guardiola</p>
+    <p>Home Ground: Etihad Stadium</p>
+    <p>Colors: Sky blue, White</p>
+    <p id="managerInfo"></p>
+
+  </div>
+
+  <script>
+
+    const managerName = "Pep Guardiola";
+    const managerNameLength = managerName.length;
+    const managerInfo = document.getElementById('managerInfo');
+
+    managerInfo.textContent = `Manager's Name Length: ${managerNameLength}`;
+
+  </script>
+
+</body>
+
+</html>
